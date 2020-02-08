@@ -1,4 +1,4 @@
-const passport = require('passport');
+ const passport = require('passport');
 
 // By default passport wants to use cookie based authentication for the user
 // In our case, we are using tokens, so we set this behavior to false
