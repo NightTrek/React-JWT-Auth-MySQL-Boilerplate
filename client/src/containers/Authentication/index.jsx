@@ -3,6 +3,7 @@ import Signin from "./Signin.jsx";
 import Signup from "./Signup.jsx";
 import { compose } from "redux";
 import { connect } from "react-redux";
+import {blue} from "@material-ui/core/colors";
 
 class Auth extends Component {
   constructor(props) {
@@ -28,13 +29,13 @@ class Auth extends Component {
 
   render() {
     return (
-      <div className="modal-block col-sm-12 col-md-8 col-lg-6 col-xl-4">
+      <div className="modal-block col-sm-12 col-md-8 col-lg-6 col-xl-4" style={{backgroundcolor:blue}}>
         <img
           className="imgSize"
-          src={"https://perma.cool/wp-content/uploads/2019/03/site-icon-1.png"}
-          alt={"Perma.Cool logo"}
+          src={"https://store-images.s-microsoft.com/image/apps.14212.9007199266419762.56b9557e-4dc3-49a7-a9be-5fc3204dba85.5fd31f8e-651a-473d-9720-b03f777bd33c?mode=scale&q=90&h=300&w=300"}
+          alt={"Microsoft lock"}
         />
-        <div className="modal-block-content">
+        <div >
           {/* <button id="stylingButton" className="btn btn-primary"></button> */}
           {/* this one is not rly a button ^ it's to fill empty space*/}
           <button
